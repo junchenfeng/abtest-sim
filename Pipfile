@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pandas = "*"
+matplotlib = "*"
+statsmodels = "*"
+bandits = {editable = true,git = "https://github.com/junchenfeng/bandits.git"}
+jupyter = "*"
+
+[requires]
+python_version = "3.7"
